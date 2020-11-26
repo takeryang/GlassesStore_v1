@@ -1,0 +1,15 @@
+$primary-color: #AA0601;
+$secondary-color: #650300;
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+
+    @media(max-width:992px) {
+        max-width: 910px;
+    }
+}
